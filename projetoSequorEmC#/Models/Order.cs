@@ -5,7 +5,7 @@ namespace projetoSequorEmC_.Models
 {
     public class Order
     {
-        public string Order { get; set; }
+        public string Orders { get; set; }
         public double Quantity { get; set; }
         public string ProductCode { get; set; }
         public string ProductDescription { get; set; }
@@ -16,7 +16,7 @@ namespace projetoSequorEmC_.Models
 
         public Order(string order, double quantity, string productCode, string productDescription, string image, double cycleTime, List<Material> materials)
         {
-            Order = order;
+            Orders = order;
             Quantity = quantity;
             ProductCode = productCode;
             ProductDescription = productDescription;

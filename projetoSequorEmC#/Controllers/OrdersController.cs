@@ -3,10 +3,10 @@ using Microsoft.AspNetCore.Mvc;
 using projetoSequorEmC_.Services;
 using System.Text.Json.Nodes;
 
-namespace projetoSequorEmC_.Controllers
+namespace projetoSequorEmC_.Models
 {
     [ApiController]
-    [Route("api/orders")]
+    [Route("api/orders")] 
     public class OrdersController : ControllerBase
     {
 
